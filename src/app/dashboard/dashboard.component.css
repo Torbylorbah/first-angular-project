@@ -9,11 +9,15 @@ h2{
     margin-bottom: 20px;
 }
 .module-department{
-    background-color: orangered;
+    background-color: black;
     padding: 15px;
     border-radius: 0.7rem;
     overflow-wrap: break-word;
     cursor: pointer;
+}
+.module-department:hover{
+    background: orangered;
+    transform: translateY(-10%);
 }
 
 h4{
