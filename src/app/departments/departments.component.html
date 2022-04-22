@@ -1,0 +1,9 @@
+
+<h2 class="depart-head">Departments In Tech Companies.</h2>
+<ul class="departments">
+    <div class="badge-div">
+        <li *ngFor="let department of departments" [class.selected]="department === selectedDepartment"(click)="onSelect(department)">
+            <span class="badge">{{department.id}}</span><span class="badge2">{{department.name}}</span>
+        </li>
+    </div>
+</ul>

@@ -1,0 +1,12 @@
+<h2>List of Departments in Pearl's Company</h2>
+
+<div class="departs">
+    <a *ngFor="let department of departments" class="" (click)="navigate(department)"
+    [class.selected]="department === selectedDepartment"
+    >
+    <div class="module-department">
+        <h4> {{department.name}} </h4>
+    </div>
+    </a>
+</div>
+
