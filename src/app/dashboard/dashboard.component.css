@@ -6,16 +6,18 @@
 }
 h2{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
-.module-department{
+.departs a{
     background-color: black;
-    padding: 15px;
     border-radius: 0.7rem;
     overflow-wrap: break-word;
     cursor: pointer;
 }
-.module-department:hover{
+.module-department{
+    padding: 20px 30px;
+}
+.departs a:hover{
     background: orangered;
     transform: translateY(-10%);
 }
